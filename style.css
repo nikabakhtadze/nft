@@ -1,0 +1,421 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: " Work Sans";
+    src: url(./fonts/WorkSans-VariableFont_wght.ttf);
+    font-family:"Space Mono";
+    src: url(./fonts/SpaceMono-Regular.ttf);
+}
+*{
+    font-family:" Work Sans";
+}
+.title{
+    text-decoration: none;
+    color: #FFF;
+        text-align: center;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+}
+.button{
+    border-radius: 20px;
+    background-color:#A259FF;
+    height:60px;
+    width:152px;
+}
+.text{
+    color: #FFF;
+        font-family: "Work Sans";
+        font-size: 67px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 110%;
+        text-transform: capitalize;
+}
+.text2{
+    color: var(--White, #FFF);
+    
+        /* H3 - Work Sans */
+        font-family: Work Sans;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 45.6px */
+        text-transform: capitalize;
+}
+p{
+    color: var(--White, #FFF);
+    font-family: "Work Sans";
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+}
+.number{
+    color: #FFF;
+        text-align: center;
+    
+        /* H5 - Space Mono */
+        font-family: Space Mono;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 160%;
+        /* 35.2px */
+        text-transform: capitalize;
+}
+.button2{
+    width:100%;
+    height:60px;
+    background-color:#2B2B2B;
+    border-radius: 20px;
+    border: 2px solid var(--Call-to-Action, #A259FF);
+}
+.rating{
+    border-radius:100%;
+    background: #2B2B2B;
+    height:30px;
+    width:30px;
+    color:  #858584;
+    padding-top:3px;
+        text-align: center;
+        font-family:"Space Mono";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+}
+.sales{
+        color: #858584;
+        margin-top:-7px;
+        margin-left:13px;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+}
+.sales1{
+        font-family: "Space Mono";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+}
+.categories{
+    font-size:38px!important;
+}
+.title2{
+        color: #FFF;
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: capitalize;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+}
+.card-name{
+        font-family: "Work Sans";
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: capitalize;
+}
+.text5{
+        color:#FFF;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 140%;
+}
+.text6{
+    color:#CCC;
+        text-align: center;
+        font-family: Work Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 140%;
+        text-transform: capitalize;
+}
+.photo2>img{
+    width:100%;
+    height:250px;
+    width:250px;
+}
+.text7{
+    color:#FFF;
+        font-family: "Work Sans";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        text-transform: capitalize;
+    }
+    .text8{
+        color:#CCC;
+            font-family: "Work Sans";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 160%;
+            text-transform: capitalize;
+    }
+    .button3{
+        position:absolute;
+        margin-left:250px!important;
+        margin-top:-60px!important;
+    }
+    .text9{
+        color: #CCC;
+            font-family: "Work Sans";
+            font-size: 18px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 280%;
+    }
+    .title3{
+        color: #FFF;
+            font-family: "Space Mono";
+            font-size: 22px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 160%;
+            text-transform: capitalize;
+    }
+    .button4{
+        position:absolute;
+        height:60px;
+        background-color:#A259FF;
+        margin-left:-216px;
+        width:217px;
+        border-radius:20px;
+    }
+    .nft-info{
+        background-image: url(./photos/mashroom.jpg);
+        border-image-repeat:no-repeat;
+        background-size:cover;
+        width:100%;
+        height:640px;
+    }
+    .text10{
+        color: #FFF;
+            font-family: "Work Sans";
+            font-size: 51px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 110%;
+            text-transform: capitalize;
+    }
+    .watch{
+        height:144px;
+        width:295px;
+        padding:20px;
+        border-radius: 20px;
+        background: rgba(59, 59, 59, 0.50);
+        backdrop-filter: blur(5px);
+        margin-top:440px;
+        margin-left:auto;
+    }
+    .text11{
+        color:#FFF;
+        font-family: "Space Mono";
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 110%;
+    }
+    .button6{
+            background-color:#3B3B3B;
+            border-radius:20px;
+            height:44px;
+            width:151px
+    }
+    .hour{
+        color:#FFF;
+            font-family: "Space Mono";
+            font-size: 38px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 120%;
+            text-transform: capitalize;
+    }
+@media screen and (max-width: 768px) {
+    .title{
+        margin-right:auto;
+    }
+    .information{
+        width:100% !important;
+    }
+    .text{
+        font-size:40px !important;
+
+    }
+    .text1{
+        font-size:18px !important;
+    }
+    .text2{
+        font-size:28px !important;
+    }
+    .text3{
+        font-size:16px;
+    }
+    .title1{
+        padding-left:10px;
+    }
+    .dog{
+        display:flex;
+        justify-content: center;
+    }
+    .top-tire-artists{
+        margin-top:80px !important;
+    }
+    .card{
+        height:100px!important;
+    }
+    .photo1{
+        height:60px!important;;
+        width:60px!important;
+    }
+    .logo{
+        height:60px !important;
+        width:60px !important;
+        display:flex;
+        margin-top:-10px;
+        margin-left:-110px;
+    }
+    .name{
+        position:absolute;
+        font-size:22px!important;
+        top:10px!important;
+        left:132px;
+    }
+    .rating{
+        position:absolute;
+        top:15px;
+    }
+    .text4{
+        margin-top:-22px!important;
+        margin-left:85px!important;
+    }
+    .title2{
+        font-size:16px!important;
+    }
+    .explore{
+        font-size:18px;
+    }
+    .explore1{
+        font-size:33px;
+    }
+    .card-end1{
+        margin-left:-40px!important;
+    }
+    .find{
+        font-size:16px;
+    }
+    .box{
+        height:157px!important;
+    }
+    .photo2{
+        width:100px!important;
+        height:100px!important;
+        margin-left:-240px!important;
+        margin-top:20px!important;
+    }
+    .text5{
+        margin-top:-100px!important;
+        width:170px!important;
+        margin-left:100px!important;
+        font-size:18px;
+        text-align: left;
+    }
+    .text6{
+        margin-top:-0px!important;
+        margin-left:100px!important;
+        font-size:12px;
+        width:155px!important;
+        text-align: left!important;
+    }
+    .subscribe{
+        background-color:#2B2B2B!important;
+        margin-top:-60px!important;
+    }
+    .photo3{
+        width:360px!important;
+        margin-left:-44px;
+    }
+    .text7{
+        margin-top:-120px!important;
+        font-size:28px!important;
+        width:250px!important;
+        margin-left:-40px;
+    }
+    .text8{
+        font-size:16px!important;
+        margin-top:0px!important;
+        width:315px!important;
+        margin-left:-40px;
+    }
+    .button1{
+        margin-top:20px!important;
+        margin-left:-45px!important;
+        width:365px!important;
+        padding-right:160px!important;
+        font-size:20px!important;
+    }
+    .button3{
+        width:365px!important;
+        margin-top:20px!important;
+        margin-left:-45px!important;
+    }
+    .footer1{
+        margin-top:50px;
+        height:1100px!important
+    }
+    .end1{
+        gap: 0px!important;
+    }
+    .button4{
+        margin-top:70px!important;
+        margin-left:-325px!important;
+        width:325px!important;
+        color:#FFF;
+    }
+    .button5{
+        padding-right:160px!important
+    }
+    .svg{
+        position:absolute;
+        left:100px;
+    }
+    .line{
+        width:315px!important;
+        margin-top:50px;
+    }
+    .nft-info{
+        background-image: url(./photos/mashroom2.jpg);
+        border-image-repeat:no-repeat;
+        background-size:cover;
+        width:100%;
+        height:590px;
+    }
+    .box1{
+        margin-top:120px!important;
+    }
+    .box2{
+        margin-top:-420px!important;
+        margin-left: -30px!important;
+        height:144px;
+    }
+}
